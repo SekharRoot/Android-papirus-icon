@@ -1,0 +1,6 @@
+{
+  "name": "Papirus Icons",
+  "description": "Preview, search, and request beautiful open-source Papirus icons across multiple launchers.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

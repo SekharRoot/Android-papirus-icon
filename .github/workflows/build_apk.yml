@@ -1,0 +1,59 @@
+name: Build Universal APK
+
+on:
+  push:
+    branches: [ "main", "master" ]
+  pull_request:
+    branches: [ "main", "master" ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Build Universal Android APK
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+
+      - name: Setup Gradle
+        uses: gradle/actions/setup-gradle@v3
+
+      - name: Grant Execute Permission for Gradle
+        run: |
+          if [ -f "./gradlew" ]; then
+            chmod +x gradlew
+          fi
+
+      - name: Build Universal Debug APK
+        run: |
+          if [ -f "./gradlew" ]; then
+            ./gradlew assembleDebug --no-daemon
+          else
+            gradle assembleDebug --no-daemon
+          fi
+
+      - name: Prepare Output Folder
+        run: |
+          mkdir -p output
+          if [ -f "app/build/outputs/apk/debug/app-debug.apk" ]; then
+            cp app/build/outputs/apk/debug/app-debug.apk output/Papirus-Icon-Pack-Universal.apk
+            echo "Successfully copied universal APK to output/Papirus-Icon-Pack-Universal.apk"
+          else
+            echo "Searching for built APK files..."
+            find app/build/outputs/apk/ -name "*.apk" -exec cp {} output/Papirus-Icon-Pack-Universal.apk \;
+          fi
+          ls -lh output/
+
+      - name: Upload Universal APK Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: Papirus-Icon-Pack-Universal-APK
+          path: output/
+          if-no-files-found: error
