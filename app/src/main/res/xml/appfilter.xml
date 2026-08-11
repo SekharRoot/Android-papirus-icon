@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Firefox -->
+    <item component="ComponentInfo{org.mozilla.firefox/org.mozilla.firefox.App}" drawable="firefox" />
+    <!-- Google Chrome -->
+    <item component="ComponentInfo{com.android.chrome/com.google.android.apps.chrome.Main}" drawable="google_chrome" />
+    <!-- Telegram -->
+    <item component="ComponentInfo{org.telegram.messenger/org.telegram.ui.LaunchActivity}" drawable="telegram" />
+    <!-- Discord -->
+    <item component="ComponentInfo{com.discord/com.discord.main.MainActivity}" drawable="discord" />
+    <!-- Spotify -->
+    <item component="ComponentInfo{com.spotify.music/com.spotify.music.MainActivity}" drawable="spotify" />
+    <!-- VLC -->
+    <item component="ComponentInfo{org.videolan.vlc/org.videolan.vlc.StartActivity}" drawable="vlc" />
+    <!-- GIMP -->
+    <item component="ComponentInfo{org.gimp.GIMP/org.gimp.GIMP.MainActivity}" drawable="gimp" />
+    <!-- Inkscape -->
+    <item component="ComponentInfo{org.inkscape.Inkscape/org.inkscape.Inkscape.MainActivity}" drawable="inkscape" />
+    <!-- Steam -->
+    <item component="ComponentInfo{com.valvesoftware.android.steam.community/com.valvesoftware.android.steam.community.MainActivity}" drawable="steam" />
+    <!-- VS Code -->
+    <item component="ComponentInfo{com.microsoft.vscode/com.microsoft.vscode.MainActivity}" drawable="visual_studio_code" />
+    <!-- Terminal -->
+    <item component="ComponentInfo{com.termux/com.termux.app.TermuxActivity}" drawable="utilities_terminal" />
+    <!-- File Manager -->
+    <item component="ComponentInfo{com.google.android.apps.docs/com.google.android.apps.docs.app.NewMainProxyActivity}" drawable="system_file_manager" />
+    <!-- LibreOffice Writer -->
+    <item component="ComponentInfo{org.libreoffice.androidapp/org.libreoffice.androidapp.MainActivity}" drawable="libreoffice_writer" />
+    <!-- LibreOffice Calc -->
+    <item component="ComponentInfo{org.libreoffice.androidapp.calc/org.libreoffice.androidapp.calc.MainActivity}" drawable="libreoffice_calc" />
+    <!-- Blender -->
+    <item component="ComponentInfo{org.blender.blender/org.blender.blender.MainActivity}" drawable="blender" />
+    <!-- OBS Studio -->
+    <item component="ComponentInfo{com.obsproject.studio/com.obsproject.studio.MainActivity}" drawable="obs" />
+    <!-- Audacity -->
+    <item component="ComponentInfo{org.audacityteam.audacity/org.audacityteam.audacity.MainActivity}" drawable="audacity" />
+    <!-- Android Studio -->
+    <item component="ComponentInfo{com.google.android.studio/com.google.android.studio.MainActivity}" drawable="android_studio" />
+    <!-- X / Twitter -->
+    <item component="ComponentInfo{com.twitter.android/com.twitter.android.StartActivity}" drawable="twitter" />
+    <!-- Settings -->
+    <item component="ComponentInfo{com.android.settings/com.android.settings.Settings}" drawable="preferences_system" />
+    <!-- Calendar -->
+    <item component="ComponentInfo{com.google.android.calendar/com.android.calendar.LaunchActivity}" drawable="office_calendar" />
+    <!-- Music / Audio Player -->
+    <item component="ComponentInfo{com.google.android.music/com.google.android.music.AudioPreview}" drawable="multimedia_audio_player" />
+    <!-- Email / Mail -->
+    <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.ConversationListActivityGmail}" drawable="internet_mail" />
+    <!-- Keep Notes -->
+    <item component="ComponentInfo{com.google.android.keep/com.google.android.keep.activities.BrowseActivity}" drawable="keep" />
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="icon_pack" translatable="false">
+        <item>firefox</item>
+        <item>google_chrome</item>
+        <item>telegram</item>
+        <item>discord</item>
+        <item>spotify</item>
+        <item>vlc</item>
+        <item>gimp</item>
+        <item>inkscape</item>
+        <item>steam</item>
+        <item>visual_studio_code</item>
+        <item>utilities_terminal</item>
+        <item>system_file_manager</item>
+        <item>libreoffice_writer</item>
+        <item>libreoffice_calc</item>
+        <item>blender</item>
+        <item>obs</item>
+        <item>audacity</item>
+        <item>android_studio</item>
+        <item>twitter</item>
+        <item>preferences_system</item>
+        <item>office_calendar</item>
+        <item>multimedia_audio_player</item>
+        <item>internet_mail</item>
+        <item>keep</item>
+    </string-array>
+</resources>

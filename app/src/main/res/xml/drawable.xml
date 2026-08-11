@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <category title="System" />
+    <item drawable="preferences_system" />
+    <item drawable="system_file_manager" />
+
+    <category title="Communication" />
+    <item drawable="telegram" />
+    <item drawable="discord" />
+    <item drawable="twitter" />
+    <item drawable="internet_mail" />
+
+    <category title="Internet" />
+    <item drawable="firefox" />
+    <item drawable="google_chrome" />
+
+    <category title="Media" />
+    <item drawable="spotify" />
+    <item drawable="vlc" />
+    <item drawable="obs" />
+    <item drawable="audacity" />
+    <item drawable="multimedia_audio_player" />
+
+    <category title="Games" />
+    <item drawable="steam" />
+
+    <category title="Productivity" />
+    <item drawable="visual_studio_code" />
+    <item drawable="libreoffice_writer" />
+    <item drawable="libreoffice_calc" />
+    <item drawable="android_studio" />
+    <item drawable="office_calendar" />
+    <item drawable="keep" />
+
+    <category title="Utility" />
+    <item drawable="gimp" />
+    <item drawable="inkscape" />
+    <item drawable="blender" />
+    <item drawable="utilities_terminal" />
+</resources>
