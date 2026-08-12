@@ -81,4 +81,59 @@
     <item component="ComponentInfo{com.android.contacts/com.android.contacts.activities.PeopleActivity}" drawable="contacts" />
     <item component="ComponentInfo{com.android.phone/com.android.phone.DialtactsActivity}" drawable="phone" />
     <item component="ComponentInfo{com.android.mms/com.android.mms.ui.ConversationList}" drawable="messages" />
+    <!-- User Requested App Mappings -->
+    <item component="ComponentInfo{com.whatsapp.w4b/}" drawable="whatsapp" />
+    <item component="ComponentInfo{com.nothing.camera/}" drawable="preferences_system" />
+    <item component="ComponentInfo{com.google.android.apps.labs.language.tailwind/}" drawable="google_keep" />
+    <item component="ComponentInfo{com.google.android.googlequicksearchbox/}" drawable="google" />
+    <item component="ComponentInfo{com.google.android.apps.docs.editors.docs/}" drawable="google_docs" />
+    <item component="ComponentInfo{com.jacksoftw.webcam/}" drawable="utilities_terminal" />
+    <item component="ComponentInfo{br.com.zetabit.ios_standby/}" drawable="clock" />
+    <item component="ComponentInfo{com.google.android.apps.docs.editors.sheets/}" drawable="libreoffice_calc" />
+    <item component="ComponentInfo{com.google.android.apps.docs.editors.slides/}" drawable="google_slides" />
+    <item component="ComponentInfo{com.google.android.apps.messaging/}" drawable="internet_mail" />
+    <item component="ComponentInfo{com.openai.chatgpt/}" drawable="google" />
+    <item component="ComponentInfo{com.nothing.gallery/}" drawable="google_photos" />
+    <item component="ComponentInfo{com.chrome.beta/}" drawable="google_chrome_beta" />
+    <item component="ComponentInfo{com.android.vending/}" drawable="google_play" />
+    <item component="ComponentInfo{com.sparrow.mobile.sparrow/}" drawable="preferences_system" />
+    <item component="ComponentInfo{org.localsend.localsend_app/}" drawable="telegram" />
+    <item component="ComponentInfo{com.google.android.deskclock/}" drawable="clock" />
+    <item component="ComponentInfo{com.wolfsekhar.music/}" drawable="multimedia_audio_player" />
+    <item component="ComponentInfo{com.google.android.gm/}" drawable="gmail" />
+    <item component="ComponentInfo{com.google.android.apps.tachyon/}" drawable="google_meet" />
+    <item component="ComponentInfo{com.chalo.crut/}" drawable="google_maps" />
+    <item component="ComponentInfo{com.google.android.apps.wellbeing/}" drawable="preferences_system" />
+    <item component="ComponentInfo{com.google.android.dialer/}" drawable="preferences_system" />
+    <item component="ComponentInfo{com.google.android.apps.bard/}" drawable="google" />
+    <item component="ComponentInfo{com.google.android.apps.docs/}" drawable="google_drive" />
+    <item component="ComponentInfo{com.google.android.apps.maps/}" drawable="google_maps" />
+    <item component="ComponentInfo{com.nothing.soundrecorder/}" drawable="audacity" />
+    <item component="ComponentInfo{selfstudys.com/}" drawable="libreoffice_writer" />
+    <item component="ComponentInfo{com.todoist/}" drawable="todoist" />
+    <item component="ComponentInfo{com.nothing.weather/}" drawable="weather" />
+    <item component="ComponentInfo{com.google.android.contacts/}" drawable="google_contacts" />
+    <item component="ComponentInfo{com.google.android.calculator/}" drawable="calculator" />
+    <item component="ComponentInfo{com.android.chrome/}" drawable="google_chrome" />
+    <item component="ComponentInfo{com.habitnow/}" drawable="office_calendar" />
+    <item component="ComponentInfo{org.videolan.vlc/}" drawable="vlc" />
+    <item component="ComponentInfo{com.google.android.calendar/}" drawable="calendar" />
+    <item component="ComponentInfo{com.google.android.accessibility.switchaccess/}" drawable="preferences_system" />
+    <item component="ComponentInfo{com.raha.app.mymoney.pro/}" drawable="libreoffice_calc" />
+    <item component="ComponentInfo{com.android.settings/}" drawable="preferences_system" />
+    <item component="ComponentInfo{com.google.android.apps.nbu.paisa.user/}" drawable="google_play" />
+    <item component="ComponentInfo{com.axis.mobile/}" drawable="preferences_system" />
+    <item component="ComponentInfo{com.grofers.customerapp/}" drawable="google_play" />
+    <item component="ComponentInfo{com.google.android.apps.youtube.creator/}" drawable="youtube" />
+    <item component="ComponentInfo{pl.solidexplorer2/}" drawable="system_file_manager" />
+    <item component="ComponentInfo{com.delphicoder.flud/}" drawable="utilities_terminal" />
+    <item component="ComponentInfo{proton.android.pass/}" drawable="proton_pass" />
+    <item component="ComponentInfo{com.android.angle/}" drawable="preferences_system" />
+    <item component="ComponentInfo{com.google.android.apps.work.clouddpc/}" drawable="preferences_system" />
+    <item component="ComponentInfo{com.intsig.camscanner/}" drawable="google_docs" />
+    <item component="ComponentInfo{com.authy.authy/}" drawable="authy" />
+    <item component="ComponentInfo{com.android.traceur/}" drawable="utilities_terminal" />
+    <item component="ComponentInfo{com.canva.editor/}" drawable="inkscape" />
+    <item component="ComponentInfo{com.cengage.Cengage/}" drawable="libreoffice_writer" />
+    <item component="ComponentInfo{com.google.android.apps.restore/}" drawable="preferences_system" />
 </resources>

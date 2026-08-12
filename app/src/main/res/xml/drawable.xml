@@ -9,6 +9,9 @@
     <item drawable="gmail" />
     <item drawable="google_drive" />
     <item drawable="google_keep" />
+    <item drawable="google_docs" />
+    <item drawable="google_slides" />
+    <item drawable="google_meet" />
     <item drawable="calendar" />
     <item drawable="google_phone" />
     <item drawable="google_messages" />
@@ -27,6 +30,9 @@
     <item drawable="slack" />
     <item drawable="zoom" />
     <item drawable="teams" />
+    <item drawable="todoist" />
+    <item drawable="authy" />
+    <item drawable="proton_pass" />
 
     <category title="System" />
     <item drawable="preferences_system" />

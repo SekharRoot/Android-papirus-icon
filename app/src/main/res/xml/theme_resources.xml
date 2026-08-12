@@ -14,6 +14,10 @@
         <item>gmail</item>
         <item>google_drive</item>
         <item>google_keep</item>
+        <item>google_docs</item>
+        <item>google_slides</item>
+        <item>google_meet</item>
+        <item>google_chrome_beta</item>
         <item>calendar</item>
         <item>google_phone</item>
         <item>google_messages</item>
@@ -32,6 +36,10 @@
         <item>slack</item>
         <item>zoom</item>
         <item>teams</item>
+        <item>todoist</item>
+        <item>authy</item>
+        <item>proton_pass</item>
+        <item>calculator</item>
         
         <!-- Utilities & Creators -->
         <item>weather</item>
