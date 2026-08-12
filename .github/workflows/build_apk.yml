@@ -43,9 +43,11 @@ jobs:
 
       - name: Build Universal Debug APK
         run: |
-          if [ -f "./gradlew" ]; then
+          if [ -f "./gradlew" ] && java -jar gradle/wrapper/gradle-wrapper.jar --version >/dev/null 2>&1; then
+            echo "Using gradlew wrapper..."
             ./gradlew assembleDebug --no-daemon
           else
+            echo "Gradle wrapper jar not present or corrupt, falling back to installed gradle CLI..."
             gradle assembleDebug --no-daemon
           fi
 
