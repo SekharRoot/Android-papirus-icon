@@ -1,8 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <category title="Google" />
+    <item drawable="google" />
+    <item drawable="google_maps" />
+    <item drawable="google_photos" />
+    <item drawable="google_play" />
+    <item drawable="youtube" />
+    <item drawable="gmail" />
+    <item drawable="google_drive" />
+    <item drawable="google_keep" />
+    <item drawable="calendar" />
+    <item drawable="google_phone" />
+    <item drawable="google_messages" />
+    <item drawable="google_contacts" />
+
+    <category title="Popular" />
+    <item drawable="whatsapp" />
+    <item drawable="instagram" />
+    <item drawable="facebook" />
+    <item drawable="reddit" />
+    <item drawable="pinterest" />
+    <item drawable="tiktok" />
+    <item drawable="snapchat" />
+    <item drawable="netflix" />
+    <item drawable="github" />
+    <item drawable="slack" />
+    <item drawable="zoom" />
+    <item drawable="teams" />
+
     <category title="System" />
     <item drawable="preferences_system" />
     <item drawable="system_file_manager" />
+    <item drawable="camera" />
+    <item drawable="clock" />
+    <item drawable="weather" />
 
     <category title="Communication" />
     <item drawable="telegram" />

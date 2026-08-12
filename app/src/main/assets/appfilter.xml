@@ -1,51 +1,84 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Firefox -->
+    <!-- Google Apps -->
+    <item component="ComponentInfo{com.google.android.googlequicksearchbox/com.google.android.apps.gsa.searchflow.SearchActivity}" drawable="google" />
+    <item component="ComponentInfo{com.google.android.googlequicksearchbox/com.google.android.apps.gsa.velvet.ui.settings.SettingsActivity}" drawable="google" />
+    <item component="ComponentInfo{com.google.android.apps.maps/com.google.android.maps.MapsActivity}" drawable="google_maps" />
+    <item component="ComponentInfo{com.google.android.apps.maps/com.google.android.apps.gsa.queryentry.QueryEntryActivity}" drawable="google_maps" />
+    <item component="ComponentInfo{com.google.android.apps.photos/com.google.android.apps.photos.home.HomeActivity}" drawable="google_photos" />
+    <item component="ComponentInfo{com.android.vending/com.android.vending.AssetBrowserActivity}" drawable="google_play" />
+    <item component="ComponentInfo{com.google.android.youtube/com.google.android.youtube.app.honeycomb.Shell$HomeActivity}" drawable="youtube" />
+    <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.ConversationListActivityGmail}" drawable="gmail" />
+    <item component="ComponentInfo{com.google.android.apps.docs/com.google.android.apps.docs.app.NewMainProxyActivity}" drawable="google_drive" />
+    <item component="ComponentInfo{com.google.android.keep/com.google.android.keep.activities.BrowseActivity}" drawable="google_keep" />
+    <item component="ComponentInfo{com.google.android.calendar/com.google.android.calendar.LaunchActivity}" drawable="calendar" />
+    <item component="ComponentInfo{com.google.android.dialer/com.google.android.dialer.extensions.GoogleDialtactsActivity}" drawable="google_phone" />
+    <item component="ComponentInfo{com.google.android.dialer/com.google.android.dialer.DialtactsActivity}" drawable="google_phone" />
+    <item component="ComponentInfo{com.google.android.apps.messaging/com.google.android.apps.messaging.main.MainActivity}" drawable="google_messages" />
+    <item component="ComponentInfo{com.google.android.contacts/com.google.android.contacts.Activities.PeopleActivity}" drawable="google_contacts" />
+
+    <!-- Popular Apps -->
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main}" drawable="whatsapp" />
+    <item component="ComponentInfo{com.instagram.android/com.instagram.mainactivity.MainActivity}" drawable="instagram" />
+    <item component="ComponentInfo{com.instagram.android/com.instagram.android.activity.MainTabActivity}" drawable="instagram" />
+    <item component="ComponentInfo{com.facebook.katana/com.facebook.katana.LoginActivity}" drawable="facebook" />
+    <item component="ComponentInfo{com.reddit.frontpage/com.reddit.frontpage.MainActivity}" drawable="reddit" />
+    <item component="ComponentInfo{com.pinterest/com.pinterest.activity.PinActivity}" drawable="pinterest" />
+    <item component="ComponentInfo{com.zhiliaoapp.musically/com.ss.android.ugc.aweme.main.MainActivity}" drawable="tiktok" />
+    <item component="ComponentInfo{com.snapchat.android/com.snapchat.android.LandingPageActivity}" drawable="snapchat" />
+    <item component="ComponentInfo{com.netflix.mediaclient/com.netflix.mediaclient.ui.launch.UIWebViewActivity}" drawable="netflix" />
+    <item component="ComponentInfo{com.github.android/com.github.android.MainActivity}" drawable="github" />
+    <item component="ComponentInfo{com.slack/com.slack.ui.MainActivity}" drawable="slack" />
+    <item component="ComponentInfo{us.zoom.videomeetings/com.zipow.videobox.LauncherActivity}" drawable="zoom" />
+    <item component="ComponentInfo{com.microsoft.teams/com.microsoft.teams.MainActivity}" drawable="teams" />
+
+    <!-- Nothing Launcher & OS Apps -->
+    <item component="ComponentInfo{com.nothing.launcher/com.nothing.launcher.Launcher}" drawable="preferences_system" />
+    <item component="ComponentInfo{com.nothing.weather/com.nothing.weather.MainActivity}" drawable="weather" />
+    <item component="ComponentInfo{com.nothing.recorder/com.nothing.recorder.MainActivity}" drawable="audacity" />
+    <item component="ComponentInfo{com.nothing.camera/com.nothing.camera.CameraActivity}" drawable="camera" />
+
+    <!-- Browsers -->
     <item component="ComponentInfo{org.mozilla.firefox/org.mozilla.firefox.App}" drawable="firefox" />
-    <!-- Google Chrome -->
+    <item component="ComponentInfo{org.mozilla.firefox_beta/org.mozilla.firefox.App}" drawable="firefox" />
+    <item component="ComponentInfo{org.mozilla.fennec_fdroid/org.mozilla.fennec_fdroid.App}" drawable="firefox" />
     <item component="ComponentInfo{com.android.chrome/com.google.android.apps.chrome.Main}" drawable="google_chrome" />
-    <!-- Telegram -->
+
+    <!-- Telegram & Discord -->
     <item component="ComponentInfo{org.telegram.messenger/org.telegram.ui.LaunchActivity}" drawable="telegram" />
-    <!-- Discord -->
     <item component="ComponentInfo{com.discord/com.discord.main.MainActivity}" drawable="discord" />
-    <!-- Spotify -->
+
+    <!-- Spotify & VLC -->
     <item component="ComponentInfo{com.spotify.music/com.spotify.music.MainActivity}" drawable="spotify" />
-    <!-- VLC -->
     <item component="ComponentInfo{org.videolan.vlc/org.videolan.vlc.StartActivity}" drawable="vlc" />
-    <!-- GIMP -->
+
+    <!-- GIMP & Inkscape & Steam -->
     <item component="ComponentInfo{org.gimp.GIMP/org.gimp.GIMP.MainActivity}" drawable="gimp" />
-    <!-- Inkscape -->
     <item component="ComponentInfo{org.inkscape.Inkscape/org.inkscape.Inkscape.MainActivity}" drawable="inkscape" />
-    <!-- Steam -->
     <item component="ComponentInfo{com.valvesoftware.android.steam.community/com.valvesoftware.android.steam.community.MainActivity}" drawable="steam" />
-    <!-- VS Code -->
+
+    <!-- VS Code / Termux / File Manager -->
     <item component="ComponentInfo{com.microsoft.vscode/com.microsoft.vscode.MainActivity}" drawable="visual_studio_code" />
-    <!-- Terminal -->
     <item component="ComponentInfo{com.termux/com.termux.app.TermuxActivity}" drawable="utilities_terminal" />
-    <!-- File Manager -->
-    <item component="ComponentInfo{com.google.android.apps.docs/com.google.android.apps.docs.app.NewMainProxyActivity}" drawable="system_file_manager" />
-    <!-- LibreOffice Writer -->
+    <item component="ComponentInfo{com.amaze.filemanager/com.amaze.filemanager.activities.MainActivity}" drawable="system_file_manager" />
+
+    <!-- LibreOffice -->
     <item component="ComponentInfo{org.libreoffice.androidapp/org.libreoffice.androidapp.MainActivity}" drawable="libreoffice_writer" />
-    <!-- LibreOffice Calc -->
     <item component="ComponentInfo{org.libreoffice.androidapp.calc/org.libreoffice.androidapp.calc.MainActivity}" drawable="libreoffice_calc" />
-    <!-- Blender -->
+
+    <!-- Blender & OBS & Audacity & Android Studio -->
     <item component="ComponentInfo{org.blender.blender/org.blender.blender.MainActivity}" drawable="blender" />
-    <!-- OBS Studio -->
     <item component="ComponentInfo{com.obsproject.studio/com.obsproject.studio.MainActivity}" drawable="obs" />
-    <!-- Audacity -->
     <item component="ComponentInfo{org.audacityteam.audacity/org.audacityteam.audacity.MainActivity}" drawable="audacity" />
-    <!-- Android Studio -->
     <item component="ComponentInfo{com.google.android.studio/com.google.android.studio.MainActivity}" drawable="android_studio" />
-    <!-- X / Twitter -->
+
+    <!-- Twitter / Mastodon -->
     <item component="ComponentInfo{com.twitter.android/com.twitter.android.StartActivity}" drawable="twitter" />
-    <!-- Settings -->
+
+    <!-- System & Settings Defaults -->
     <item component="ComponentInfo{com.android.settings/com.android.settings.Settings}" drawable="preferences_system" />
-    <!-- Calendar -->
-    <item component="ComponentInfo{com.google.android.calendar/com.android.calendar.LaunchActivity}" drawable="office_calendar" />
-    <!-- Music / Audio Player -->
-    <item component="ComponentInfo{com.google.android.music/com.google.android.music.AudioPreview}" drawable="multimedia_audio_player" />
-    <!-- Email / Mail -->
-    <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.ConversationListActivityGmail}" drawable="internet_mail" />
-    <!-- Keep Notes -->
-    <item component="ComponentInfo{com.google.android.keep/com.google.android.keep.activities.BrowseActivity}" drawable="keep" />
+    <item component="ComponentInfo{com.android.camera/com.android.camera.Camera}" drawable="camera" />
+    <item component="ComponentInfo{com.android.contacts/com.android.contacts.activities.PeopleActivity}" drawable="contacts" />
+    <item component="ComponentInfo{com.android.phone/com.android.phone.DialtactsActivity}" drawable="phone" />
+    <item component="ComponentInfo{com.android.mms/com.android.mms.ui.ConversationList}" drawable="messages" />
 </resources>

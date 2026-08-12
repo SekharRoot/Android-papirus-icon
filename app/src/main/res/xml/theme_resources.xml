@@ -1,8 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="icon_pack" translatable="false">
+        <!-- Browsers -->
         <item>firefox</item>
         <item>google_chrome</item>
+        
+        <!-- Google Apps -->
+        <item>google</item>
+        <item>google_maps</item>
+        <item>google_photos</item>
+        <item>google_play</item>
+        <item>youtube</item>
+        <item>gmail</item>
+        <item>google_drive</item>
+        <item>google_keep</item>
+        <item>calendar</item>
+        <item>google_phone</item>
+        <item>google_messages</item>
+        <item>google_contacts</item>
+        
+        <!-- Popular Apps -->
+        <item>whatsapp</item>
+        <item>instagram</item>
+        <item>facebook</item>
+        <item>reddit</item>
+        <item>pinterest</item>
+        <item>tiktok</item>
+        <item>snapchat</item>
+        <item>netflix</item>
+        <item>github</item>
+        <item>slack</item>
+        <item>zoom</item>
+        <item>teams</item>
+        
+        <!-- Utilities & Creators -->
+        <item>weather</item>
+        <item>camera</item>
+        <item>clock</item>
         <item>telegram</item>
         <item>discord</item>
         <item>spotify</item>
